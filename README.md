@@ -1,5 +1,2 @@
-<<<<<<< HEAD
+```diff
 # MyProject
-=======
-# Ekyawan2
->>>>>>> origin/main
