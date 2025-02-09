@@ -18,4 +18,6 @@ linux/WSL2
 - pull/push(download atau upload)
 	- git pull origin main
 	- git push -u origin main (sebelum push harus stagging dan commit dlu)
+- membuat credential atau token menjadi permanen
+	git config --global credential.helper store
 
