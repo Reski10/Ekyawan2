@@ -1,0 +1,21 @@
+Github
+terdiri dari 
+- Membuat akun di github
+- membuat repository
+- membuat token
+
+linux/WSL2
+- inisialisasi git di sebuah folder yang kita inginkan 
+	git init
+- menambahkan remote github ke lokal
+	git remote add "https://bla-bla-bla(ambil dari github)
+- mengganti nama branch master jadi branch main
+	git branch -m master main
+- manambahkan sebuah file dalam branch ke staging area
+	git add .(disini saya kasih titik agar mencakup semua file jika satu file saja ganti titik dengan nama file
+- commit 
+	git commit -m "pesan bla bla bla" (disini kita mencatat apa saja yang sebelumnya di tambahkan ke stagging area
+- pull/push(download atau upload)
+	- git pull origin main
+	- git push -u origin main (sebelum push harus stagging dan commit dlu)
+
